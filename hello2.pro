@@ -8,6 +8,9 @@ DEPENDPATH += .
 INCLUDEPATH += .
 
 # Input
-HEADERS += dialog.h
-FORMS += dialog.ui
-SOURCES += dialog.cpp main.cpp
+HEADERS += dialog.h \
+    example.h
+FORMS += dialog.ui \
+    example.ui
+SOURCES += dialog.cpp main.cpp \
+    example.cpp
