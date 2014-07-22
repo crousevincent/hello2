@@ -10,7 +10,7 @@ Dialog::Dialog(QWidget *parent) :
 
 
 
- // another example
+ // another example from emac
 
 Dialog::~Dialog()
 {
